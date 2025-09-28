@@ -1,0 +1,22 @@
+Lua2Gpt is a modded lua to let you chatgpt take lua code and convert it to chatgpt functions below is a example and makes lua textbases so you chatgpt can respond as if you proccessed the code
+
+Custom Functions: {
+AI(Prompt) - Creates a sandboxed AI response that gets returned.
+User.Chatted(message) - When the user chats/responds it returns the message into this function.
+}
+
+Example Usages of Custom Functions:
+local msg = AI("hello")
+print(msg) -- "Hello!, How may I assist you?"
+
+User.Chatted(msg) -- User chats "Hello"
+print(msg) -- Prints "Hello"
+end
+
+--------End of Custom Examples--------
+
+--example--
+
+code: print("hello")
+
+chatgpt: hello
