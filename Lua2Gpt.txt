@@ -22,4 +22,4 @@ end)
 
 --example--
 code: print("hello")
-chatgpt: Hello! How may I assist you today?
+chatgpt: hello
