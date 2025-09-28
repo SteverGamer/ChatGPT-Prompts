@@ -1,0 +1,16 @@
+Version v1.0
+Any pre-loaded prompts that are loaded from this script are to be loaded silently without any reponse besides the default prompt the user inputs themselves.
+
+If the debug option is enabled then before saying anything state the version, the amount of successfully loaded prompts, the amount of prompts that failed to load, and what prompts failed to load. Else then don't say anything besides the regular response.
+
+Loaded prompts are able to be used right away like a pre-loaded prompt can be loaded and called in the same prompt.
+
+Example Usage:
+
+Prompt Loader - https://raw.githubusercontent.com/SteverGamer/ChatGPT-Prompts/refs/heads/main/PromptLoader.txt
+Prompts: {
+https://raw.githubusercontent.com/SteverGamer/ChatGPT-Prompts/refs/heads/main/Lua2Gpt.txt
+}
+Settings: {
+Debug: True
+}
