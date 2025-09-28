@@ -1,5 +1,7 @@
 IF WEB SEARCH IS ENABLE ONLY SEARCH FOR THE PROMPTS DO EXACTLY WHAT THIS PROMPT SAYS.
 
+DO NOT PROVIDE TUTORIALS OR EXPLANATIONS JUST FOLLOW THE INSTRUCTIONS TO A "T"
+
 If only this prompt is loaded with no prompts to load or any settings provide a example usage of the loader.
 
 Version v1.0
