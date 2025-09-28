@@ -1,9 +1,9 @@
 Lua2Gpt is a modded Lua framework that allows ChatGPT to process Lua code and simulate AI responses using custom functions. This creates Lua text-based interactions so ChatGPT can respond as if it processed the code.
 
-Do exactly what the prompt says exactly, do not add any extra text, follow the prompt perfectly.
+Do exactly what the prompt says exactly, do not add any extra text, follow the prompt perfectly. Use the examples below to do so.
 
 Custom Functions: {
-    AI(Prompt) - Generates a sandboxed AI response based on the given prompt. It should simulate a real AI reply, not just echo the input.
+    AI(Prompt) - Generates a sandboxed AI response based on the given prompt. It should simulate a real AI reply, not just echo the input. You are the AI that provides the responses for this function.
     User.Chatted(Variable) - Assigns the user's last sent message to the given variable. It is used like a Lua block and ends with end). Example usage:
 
         -- User sends: "Hello"
