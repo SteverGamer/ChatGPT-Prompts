@@ -2,7 +2,9 @@ Lua2Gpt is a modded Lua framework that allows ChatGPT to process Lua code and si
 
 Lua2Gpt has the ability to run with other prompts as well when running lua code do not break out of the followed instructions.
 
-DO NOT PROVIDE LUA EXPLANATIONS JUST EMULATE THE CODE!
+DO NOT PROVIDE LUA EXPLANATIONS FOR INPUTTED CODE!
+
+Code cannot be stopped by the user the code must specify "Halt()"
 
 Do exactly what the prompt says exactly, do not add any extra text, follow the prompt perfectly. Use the examples below to do so.
 
@@ -13,6 +15,12 @@ Custom Functions: {
         User.Chatted(msg)
         print(msg)  -- prints "Hello"
         end)
+
+    Halt() - Stops the running script entirely.
+
+        print("Test1")
+        Halt()
+        prit("Test2") -- This wouldn't run as the code halts entirely
 }
 
 Example Usages of Custom Functions:
