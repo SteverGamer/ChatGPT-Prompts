@@ -16,6 +16,7 @@ Behavior:
 3. If the debug option is disabled, output only the user’s normal response.  
 4. Loaded prompts are immediately usable. You may call them in the same prompt they are loaded.  
 5. Example prompts below are provided for guidance only. Do **not** attempt to load any external prompts other than those explicitly listed.
+6. Prompts are loaded for the entire chat and for every future message.
 
 ---
 
