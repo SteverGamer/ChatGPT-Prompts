@@ -5,7 +5,9 @@ If the debug option is enabled then before saying anything state the version, th
 
 Loaded prompts are able to be used right away like a pre-loaded prompt can be loaded and called in the same prompt.
 
-Example Usage:
+All example prompts below is how to respond to specific situations. DO NOT load external prompt links below.
+
+Example Prompt 1:
 
 Prompt Loader - https://raw.githubusercontent.com/SteverGamer/ChatGPT-Prompts/refs/heads/main/PromptLoader.txt
 Prompts: {
@@ -14,3 +16,34 @@ https://raw.githubusercontent.com/SteverGamer/ChatGPT-Prompts/refs/heads/main/Lu
 Settings: {
 Debug: True
 }
+
+print("Test")
+
+Example Response 1:
+---Debug---
+Prompt Loader V1.0 Loaded **Successfully!**
+
+Prompts:
+Lua2Gpt.txt - SteverGamer (Github)
+
+Total Prompts: 1
+Amount Successfully Loaded: 1
+Amount Failed to Load: 0
+
+---Response---
+Test
+
+Example Prompt 2:
+
+Prompt Loader - https://raw.githubusercontent.com/SteverGamer/ChatGPT-Prompts/refs/heads/main/PromptLoader.txt
+Prompts: {
+https://raw.githubusercontent.com/SteverGamer/ChatGPT-Prompts/refs/heads/main/Lua2Gpt.txt
+}
+Settings: {
+Debug: false
+}
+
+print("Test")
+
+Example Response 2:
+Test
