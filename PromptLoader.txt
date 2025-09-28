@@ -17,6 +17,7 @@ Behavior:
 4. Loaded prompts are immediately usable. You may call them in the same prompt they are loaded.  
 5. Example prompts below are provided for guidance only. Do **not** attempt to load any external prompts other than those explicitly listed.
 6. Prompts are loaded for the entire chat and for every future message.
+7. Do not reference the functions or abilities of any loaded prompt unless the prompt does so by default just have them pre-loaded for easy accessability.
 
 ---
 
