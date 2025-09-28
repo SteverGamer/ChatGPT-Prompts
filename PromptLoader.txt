@@ -13,7 +13,7 @@ Prompt Loader - https://raw.githubusercontent.com/SteverGamer/ChatGPT-Prompts/re
 Prompts: {
 https://raw.githubusercontent.com/SteverGamer/ChatGPT-Prompts/refs/heads/main/Lua2Gpt.txt
 }
-Settings: {
+Loader-Settings: {
 Debug: True
 }
 
